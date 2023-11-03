@@ -1,149 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7123c0e2af.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
-    <style>
-        .custom-input {
-          width: 450px; /* Adjust the width as needed */
-        }
-        .rectangle {
-           /* Background color of the rectangle */
-          width: 700px; /* Width of the rectangle */
-          height: 90%; /* Match the height of the content */
-          position: fixed; /* Fixed position to stay on the right side */
-          right: 0; /* Align to the right side of the viewport */
-          top: 0; /* Align to the top of the viewport */
-          margin-top: 5px;
-          margin-right: 100px;
-        }
-        .profile-container {
-      display: flex; /* Display the image and text side by side */
-      align-items: center; /* Vertically align them */
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7123c0e2af.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Login</title>
+  <style>
+    .custom-input {
+      width: 450px; /* Adjust the width as needed */
     }
-
-    .profile-image {
-      max-width: 100px; /* Adjust the image width as needed */
-      margin-right: 20px; /* Add some spacing between the image and text */
+    .rectangle {
+      background-color: #AFD3E2; /* Background color of the rectangle */
+      width: 700px; /* Width of the rectangle */
+      height: 90%; /* Match the height of the content */
+      position: fixed; /* Fixed position to stay on the right side */
+      right: 0; /* Align to the right side of the viewport */
+      top: 0; /* Align to the top of the viewport */
+      margin-top: 35px;
+      margin-right: 50px;
     }
-
-    .profile-name {
-      color: black;
-      font-size: 32px;
-      font-family: Outfit;
-      font-weight: 500;
-      word-wrap: break-word;
-    }
-    .new-rectangle {
-      background-color: white;
-      width: 600px; /* Adjust the width as needed */
-      height: 180px; /* Adjust the height as needed */
-      border-radius: 15px;
-      border: 1px rgba(0, 0, 0, 0.25) solid;
-      margin-left: 797px;
-      margin-top: 300px;
-    }
-      </style>
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="130" height="64"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll" style="padding-left: 500px;">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; ">
-              <li class="nav-item" style="padding-left: 40px;">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              </li>
-              <li class="nav-item" style="padding-left: 40px;">
-                <a class="nav-link" href="aboutus.html">About Us</a>
-              </li>
-              <li class="nav-item" style="padding-left: 40px;">
-                <a class="nav-link active" aria-current="page" href="appnmt.html">Appointment</a>
-              </li>
-              <li class="nav-item" style="padding-left: 40px;">
-                <a class="nav-link active" aria-current="page" href="blog.html">Blogs</a>
-              </li>
-              <li class="nav-item" style="padding-left: 40px;">
-                <a class="nav-link active" aria-current="page" href="bot.html">VitalBot</a>
-              </li>
-              
-            </ul>
-              <img src="images/Angeline.png" alt="profile">
-          </div>
-        </div>
-      </nav>
-      <div style="margin-top: 40px; margin-left: 40px;">
-        <div class="container-fluid">
-
-            <div class="row">
-              <div class="feature-box col-lg-6">
-                <div class="profile-container">
-                    <img class="profile-image" src="images/profile.jpg" alt="profile">
-                    <div class="profile-name">Angeline</div>
-                    <br>
-                    <div style="color: rgba(0, 0, 0, 0.25); font-size: 24px; font-family: Outfit; font-weight: 400; word-wrap: break-word; padding-left: 15px;">ID-2357</div>
-                    <button type="button" class="btn btn-primary" style="margin-left: 30px;">Edit</button>
-                  </div>
-
-              </div>
-      
-              <div class="feature-box col-lg-6">
-                <div style="width: 70%; height: 100%; background: white; border-radius: 15px; border: 1px rgba(0, 0, 0, 0.25) solid">
-                    <div style="color: black; font-size: 28px; font-family: Lobster; font-weight: 400; line-height: 24px; word-wrap: break-word; margin-top: 25px; margin-left: 25px;">"Every day is a gift. Good Day, seniors!"</div></div>
-              </div>
-            </div>
-      
-          </div>
-        </div>
-        <div >
-            <div style="width: 650px; height: 400px; left: 60px; top: 290px; position: absolute; background: white; border-radius: 15px; border: 1px rgba(0, 0, 0, 0.25) solid">
-                <div style="color: black; font-size: 28px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 25px; margin-top: 10px;">Personal Information </div>
-                <div class="profile-container" style="margin-top: 40px;">
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 25px; margin-top: 10px;">Gender</div>
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 105px; margin-top: 10px;">Age</div>
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 155px; margin-top: 10px;">Status</div>
-                </div>
-                <div class="profile-container">
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 25px; margin-top: 10px; ">Female</div>
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 105px; margin-top: 10px; ">70</div>
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 155px; margin-top: 10px; ">Married</div>
-                </div>
-                <div class="profile-container" style="margin-top: 40px;">
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 25px; margin-top: 10px;">Weight</div>
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 105px; margin-top: 10px;">Height</div>
-                    <div style="color: rgba(0, 0, 0, 0.55); font-size: 26px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-left: 155px; margin-top: 10px;">Chronic</div>
-                </div>
-                <div class="profile-container">
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 25px; margin-top: 10px; ">78 kgs</div>
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 105px; margin-top: 10px; ">175 cm</div>
-                    <div style="color: black; font-size: 26px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-left: 155px; margin-top: 10px; ">BP</div>
-                </div>
-            </div>
-            
-        </div>
-        <div class="rectangle">
-            <div style="width: 600px; height: 200px; left: 60px; top: 290px; position: absolute; background: white; border-radius: 15px; border: 1px rgba(0, 0, 0, 0.25) solid">
-                <div class="profile-container">
-                    <i class="fa-solid fa-heart fa-2x" style="margin-top: 15px; margin-left: 25px;"></i>
-                    <div style="color: black; font-size: 28px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 15px; margin-left: 25px;">Heart Rate</div>
-                    <div style="margin-top: 15px; margin-left: 155px;"><span style="color: black; font-size: 28px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 15px; margin-left: 25px;">46 - 140</span><span style="color: rgba(0, 0, 0, 0.55); font-size: 22px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-top: 15px; margin-left: 25px;"> BPM</span></div>
-                </div>
-                <img src="images/graph.jpg" alt="Heartrate" style="margin-top: 15px; margin-left: 80px;">
-            </div>
-        </div>
-        <div class="new-rectangle">
-            <div class="profile-container">
-                <div style="color: black; font-size: 24px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 15px; margin-left: 25px;">Notification</div>
-                <i class="fa-solid fa-circle-exclamation fa-2x" style="margin-top: 15px; margin-left: 395px;"></i>
-            </div>
-            <div style="color: rgba(0, 0, 0, 0.85); font-size: 28px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-top: 35px; margin-left: 25px;">Appointment with Dr.Pal today !</div>
-        </div>
-        
+  <img {style={{width: '100%', height: '100%'}}} src="images/logo.png" />
+  <div class="rectangle">
+    <div style="width: 100%; color: white; font-size: 60px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 20px; margin-left: 30px;">Ageing Gracefully, with VitalEase !</div>
+    <div style="color: rgba(255, 255, 255, 0.75); font-size: 32px; font-family: Outfit; font-weight: 400; word-wrap: break-word; margin-top: 5px; margin-left: 30px;">Simplifying Healthcare for Our Elderly.</div>
+    <img style="width: 50%; height: 50%; margin-left: 150px; margin-top: 35px;" src="images/bottle.jpg" />
+  </div>
+  <div style="margin-left: 40px; ">
+    <div style="color: black; font-size: 48px; font-family: Outfit; font-weight: 500; word-wrap: break-word">Welcome Back !</div>
+    <div style="color: rgba(0, 0, 0, 0.65); font-size: 24px; font-family: Outfit; font-weight: 400; word-wrap: break-word; ">Enter your credentials to access your account</div>
+    <button type="button" class="btn btn-light" style="color: black; font-size: 24px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 40px;"><i class="fa-brands fa-google" style="padding-right: 5px; padding-left: 5px;"></i>   Google  </button>
+    <button type="button" class="btn btn-light" style="color: black; font-size: 24px; font-family: Outfit; font-weight: 500; word-wrap: break-word; margin-top: 40px; margin-left: 150px;"><i class="fa-brands fa-apple" style="padding-right: 5px; padding-left: 5px;"></i>  Apple  </button>
+    <div style="margin-top: 40px;">
+    <div class="col-xs-3">
+      <label class="form-label">Username</label>
+      <input type="text" class="form-control custom-input" id="exampleFormControlInput1">
+    </div>
+    <div class="col-xs-3">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control custom-input" id="exampleFormControlInput1">
+    </div>
+    <button type="button" class="btn btn-primary" style="margin-top: 10px; padding-left: 15px; padding-right: 15px; margin-bottom: 30px;" >Login</button>
+  </div>
+  <h5>Don't have an account ? <a href="registration.html">Sign Up</a></h5>
+</div>
 </body>
 </html>
