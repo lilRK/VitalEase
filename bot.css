@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav .hero-image{
+    position: fixed;
+    size: 5cm;
+    align-items: center;
+    left: 7rem;
+    top:1.5rem;
+    
+}
+
+.nav-items li {
+    position: relative;
+        list-style: none;
+        margin-right: 60px;
+        left: 55%;
+        top: 1rem;
+}
+
+.nav-items button{
+    position: fixed;
+    background-color: #146C94;
+    border:none;
+    top:2rem;
+    right:9%;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.nav-items button:hover {
+	opacity: .5;
+}
+
+.nav-items button a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    text-decoration: none;
+    font-weight: 400;
+}
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Outfit';
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Header */
+
+.header-container {
+    background: #FFFFFF url();
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    background-size: contain;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .chat{
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    height: 550px;
+    width: 800px;
+    z-index: 1;
+}
+
+header .blue{
+    height: 1px;
+    width: 400px;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    border-style: solid;
+    border-color: #146C94;
+    border-width: 3px;
+    z-index: 2;
+}
+
+header .chatbot{
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    height: 65px;
+    width: 400px;
+    z-index: 1;
+}
+
+header h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    position: fixed;
+    top: 22%;
+    left: 20%;
+    text-align: left;
+    color: #000000;
+}
+
+header .appnmt{
+    position: fixed;
+    left: 36.02%;
+    top: 20%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    height: 65px;
+    width: 400px;
+    z-index: 1;
+}
+
+header h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    position: fixed;
+    top: 22%;
+    left: 43%;
+    text-align: left;
+    color: #000000;
+}
+
+
+header .bar{
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    height: 160px;
+    width: 800px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+header .bar img{
+    position: fixed;
+    left: 13%;
+    top: 29%;
+}
+
+header h3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 43px;
+    position: fixed;
+    top: 31%;
+    left: 19%;
+    text-align: left;
+    color: #000000;
+}
+
+header h4{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    top: 36%;
+    left:19%;
+    color: #000000a0;
+}
+
+header .green{
+    border-radius: 0.5rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    position: fixed;
+    top: 33.5%;
+    left:45%;
+    background-color: #609966;
+    color: #ffffff;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+}
+
+header h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    top: 44%;
+    left:33.5%;
+    color: #000000a0;
+}
+
+header .send{
+    position: fixed;
+    top: 54%;
+    left: 38%;
+}
+
+header h6{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    position: fixed;
+    top: 55%;
+    left: 39%;
+    color: #ffffff;
+}
+
+header .receive{
+    position: fixed;
+    top: 67%;
+    left: 12%;
+}
+
+header h7{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    position: fixed;
+    top: 72%;
+    left: 14%;
+    color: #ffffff;
+}
+
+header .bottom{
+    position: fixed;
+    left: 10%;
+    bottom: 6.4%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    height: 60px;
+    width: 800px;
+    z-index: 1;
+}
+
+header .mic{
+    position: fixed;
+    left: 12%;
+    bottom: 8%;
+}
+
+header .arrow{
+    position: fixed;
+    left: 57%;
+    bottom: 7.8%;
+}
+
+footer .notif{
+    position: fixed;
+    right: 10%;
+    top: 20%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    height: 550px;
+    width: 400px;
+    border-radius: 0.5rem;
+}
+
+footer h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    position: fixed;
+    top: 25%;
+    right: 23%;
+    text-align: left;
+    color: #000000;
+}
+
+footer .bell{
+    position: fixed;
+    top: 26%;
+    right: 19.5%;
+}
+
+footer .Sid{
+    position: fixed;
+    top: 35%;
+    right: 30%;
+}
+
+footer .line{
+    height: 0px;
+    width: 350px;
+    position: fixed;
+    right:11.5%;
+    top: 46%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+}
+
+footer .Nish{
+    position: fixed;
+    top: 50%;
+    right: 30%;
+}
+
+footer .line2{
+    height: 0px;
+    width: 350px;
+    position: fixed;
+    right:11.5%;
+    top: 61%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+}
+
+footer .Pal{
+    position: fixed;
+    top: 65%;
+    right: 30%;
+}
+
+footer .line3{
+    height: 0px;
+    width: 350px;
+    position: fixed;
+    right:11.5%;
+    top: 76%;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+}
+
+footer .Tharun{
+    position: fixed;
+    top: 80%;
+    right: 30%;
+}
+
+footer h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    position: fixed;
+    top: 34%;
+    left: 72%;
+    text-align: left;
+    color: #000000;
+}
+
+footer h4{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    position: fixed;
+    top: 49%;
+    left: 72%;
+    text-align: left;
+    color: #000000;
+}
+
+footer h6{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    position: fixed;
+    top: 64%;
+    left: 72%;
+    text-align: left;
+    color: #000000;
+}
+
+footer h8{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    position: fixed;
+    top: 79%;
+    left: 72%;
+    text-align: left;
+    color: #000000;
+}
+
+footer h3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    left: 72%;
+    bottom: 57%;
+    color: #000000a0;
+}
+
+footer h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    left: 72%;
+    bottom: 27%;
+    color: #000000a0;
+}
+
+footer h7{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    left: 72%;
+    bottom: 42%;
+    color: #000000a0;
+}
+
+footer h9{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    left: 72%;
+    bottom: 14%;
+    color: #000000a0;
+}
+
+footer h10{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    position: fixed;
+    left: 72%;
+    bottom: 7.5%;
+    color: #000000a0;
+}
+
+footer h11{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    position: fixed;
+    left: 76.7%;
+    bottom: 7.5%;
+    color: #000000;
+}
